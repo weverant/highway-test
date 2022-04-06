@@ -1,0 +1,25 @@
+:root {
+    --container-padding: 1.5rem;
+
+    @include after-in(sm) {
+        --container-padding: 3rem;
+    }
+
+    @include after-in(md) {
+        --container-padding: 4rem;
+    }
+
+    @include after-in(lg) {
+        --container-padding: 5.5rem;
+    }
+}
+
+.container {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+}
+
+.text {
+    margin-top: var(--margin-s);
+    margin-bottom: var(--margin-s);
+}

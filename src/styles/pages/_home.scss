@@ -1,0 +1,36 @@
+body {
+  color: whitesmoke;
+  background-color: darkslategrey;
+}
+
+h1 {
+  font-size: 4rem;
+  // color: lch(53 105 40);
+}
+
+::placeholder {
+  color: gray;
+}
+
+a {
+  color: whitesmoke;
+  font-size: 10rem;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.slide {
+  height: 10rem;
+
+  img {
+    max-height: 100%;
+  }
+}
+
+.arrow--disabled {
+  pointer-events: none;
+  opacity: 0;
+}

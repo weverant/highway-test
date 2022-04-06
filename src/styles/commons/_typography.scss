@@ -1,0 +1,49 @@
+body,
+html {
+    font-size: 10px;
+}
+
+body {
+    font: {
+        family: $font-text;
+        weight: normal;
+        style: normal;
+    }
+
+    color: var(--font-color-b);
+}
+
+.main-wrapper {
+    font-size: 2.2rem;
+    line-height: 1.5;
+
+    @include after-in(sm) {
+        font-size: 2.3rem;
+    }
+
+    @include after-in(md) {
+        font-size: 2.4rem;
+    }
+}
+
+.title {
+    font: {
+        family: $font-title;
+        weight: $weight-bold;
+        size: 3.5rem;
+    }
+
+    line-height: 1.12;
+
+    @include after-in(sm) {
+        font-size: 5.5rem;
+    }
+
+    @include after-in(md) {
+        font-size: 7.5rem;
+    }
+
+    @include after-in(lg) {
+        font-size: 10rem;
+    }
+}

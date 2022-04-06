@@ -1,0 +1,36 @@
+// UTILS
+
+@import "utils/base-sizes";
+@import "utils/mixins";
+@import "utils/sizes";
+
+// ASSETS
+
+@import "assets/colors";
+@import "assets/easings";
+@import "assets/keyframes";
+
+//  COMMONS
+
+@import "commons/reset";
+@import "commons/fonts";
+@import "commons/typography";
+@import "commons/selection";
+
+// LAYOUT
+
+@import "layout/css-grid";
+@import "layout/nav";
+@import "layout/form";
+@import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
+
+// COMPONENTS
+
+@import "components/buttons";
+@import "components/slider";
+
+// PAGES
+
+@import "pages/home";
